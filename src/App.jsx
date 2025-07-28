@@ -9,15 +9,15 @@ import DadosDoCliente from './DadosDoCliente'
 const App = () => {
 
   return(
-    <Routes>
-      <Route path="home" element={<Home />} />
-      <Route path="home2" element={<Home2 />} />
-      <Route path="home3" element={<Home3 />} />
-      <Route index element={<Menu />} />
-      <Route path="viacep" element={<ViaCep />} />
-      <Route path="dadosCliente" element={<DadosDoCliente />} />
-    </Routes>
-  )
-}
+      <Routes>
+            <Route path="home" element={<Home />} />
+                  <Route path="home2" element={<Home2 />} />
+                        <Route path="home3" element={<Home3 />} />
+                              <Route index element={<Menu />} />
+                                    <Route path="viacep" element={<ViaCep />} />
+                                          <Route path="dadosCliente" element={<DadosDoCliente />} />
+                                              </Routes>
+                                                )
+                                                }
 
-export default App
+                                                export default App
